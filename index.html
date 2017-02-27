@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>The All-Knowing Psychic!</strong></h1>
+    </div>
+  <h2>Letter Guessing Game</h2>    
+  Welcome to my psychic guessing game! You have 10 tries to correctly guess the letter I am thinking of, choose wisely...Type any letter from a to z then press guess!
+  <input id="guess" type="text">
+  <input type="button" value="guess" onClick="guessLetter()">
+  <p id="message">&nbsp;</p>
+  <p id="userGuesses">&nbsp;</p>
+  </div>
+
+<img src="Assets/images/psychic-ball.jpg" alt="" class="img-rounded" style="height: 300px">
+<br>
+</br>
+<div id="score">
+<p id="wins">&nbsp;</p>
+<p id="losses">&nbsp;</p>
+</div>
+
+</body>
+</html>

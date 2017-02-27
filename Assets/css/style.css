@@ -1,0 +1,33 @@
+body {
+  background:white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  height:100%;
+  text-align:center;
+  font-size:18px;
+  background: url("../images/concrete_seamless.png");
+}
+
+.jumbotron {
+  background: red;
+  color: gold;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
